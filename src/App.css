@@ -1,0 +1,94 @@
+.App {
+  background-color: #efebeb;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 465px;
+  min-height: 100vh;
+  max-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  background-color: #bfecf9;
+  height: 60px;
+  box-shadow: -2px 6px 10px -8px #c7c7c7;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+  padding-bottom: 100px;
+  overflow: auto;
+}
+
+.rounded-button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 4px 6px 15px -8px #000;
+}
+
+.btn-add {
+  background-color: #86dcf5;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin: 10px 0;
+  background-color: #eef8fb;
+  border-radius: 5px;
+  box-shadow: 1px 8px 8px -6px #c7c7c7;
+}
+
+.form-add {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: 'row';
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  /* right: 25px; */
+}
+
+.input-todo {
+  border: 1px solid #C0C0C0;
+  width: 300px;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.btn-done {
+  width: 65px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 0.7em;
+  color: #fff;
+  background-color: #86dcf5;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
